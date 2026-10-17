@@ -22,10 +22,7 @@ homePageSortType: -1
 homeArticleShown: 10
 
 bg:
-  - /images/cover/1.webp
-  - /images/cover/2.webp
-  - /images/cover/3.webp
-  - /images/cover/4.webp
+  - /images/cover/background.jpg
 
 bgclass: filter-dot
 
