@@ -1,0 +1,75 @@
+prefixName: ''
+siteName: 萤雪
+favicon: /images/favicon.ico
+avatar: /img/custom/avatar.png
+url: https://8423ffsf.github.io
+description: 记录生活
+cdn: ''
+pjax: 1
+mathjax: 0
+
+notice: ''
+lazyloadImg: /images/loader.svg
+
+menus:
+  首页: { path: /, fa: fa-home }
+  归档: { path: /archives, fa: fa-archive }
+  标签: { path: /tags, fa: fa-tags }
+  关于: { path: /about/, fa: fa-user }
+  RSS: { path: /atom.xml, fa: fa-rss }
+
+homePageSortType: -1
+homeArticleShown: 10
+
+bg:
+  - /images/cover/1.webp
+  - /images/cover/2.webp
+  - /images/cover/3.webp
+  - /images/cover/4.webp
+
+bgclass: filter-dot
+
+startdash: []
+
+siteBuildingTime: 10/17/2026
+
+social:
+  github: {url: https://github.com/8423ffsf, img: /img/social/github.svg}
+
+msocial:
+  github: {url: https://github.com/8423ffsf, fa: fa-github, color: 333}
+
+donate: {}
+
+movies:
+  url: ''
+  name: ''
+
+aplayer:
+  enable: false
+  id: 2660651585
+  server: netease
+  type: playlist
+  fixed: true
+  autoplay: false
+  loop: all
+  order: random
+  preload: auto
+  volume: 0.7
+  mutex: true
+
+valine: false
+v_appId: ''
+v_appKey: ''
+
+waline:
+  enable: false
+  serverURL: ''
+  visitor: false
+  comment_count: true
+  avatar: mp
+  guest_info: nick
+  pageSize: 10
+  placeholder: ''
+  requiredFields: [ 'nick','mail' ]
+  background: ''

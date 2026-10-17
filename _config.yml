@@ -1,0 +1,107 @@
+title: 萤雪的博客
+subtitle: ''
+description: 记录生活
+keywords: 萤雪,博客,Hexo,Sakura
+author: 萤雪
+language: zh-cn
+timezone: Asia/Shanghai
+
+url: https://8423ffsf.github.io
+root: /
+permalink: :year/:month/:day/:title/
+permalink_defaults:
+pretty_urls:
+  trailing_index: true
+  trailing_html: true
+
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+i18n_dir: :lang
+skip_render:
+
+new_post_name: :title.md
+default_layout: post
+titlecase: false
+external_link:
+  enable: true
+  field: site
+  exclude: ''
+filename_case: 0
+render_drafts: false
+post_asset_folder: false
+relative_link: false
+future: true
+syntax_highlighter:
+highlight:
+  line_number: false
+  auto_detect: false
+  tab_replace: ''
+  wrap: false
+  hljs: false
+prismjs:
+  preprocess: true
+  line_number: false
+  tab_replace: ''
+
+index_generator:
+  path: ''
+  per_page: 10
+  order_by: -date
+
+default_category: uncategorized
+category_map:
+tag_map:
+
+meta_generator: true
+
+date_format: YYYY-MM-DD
+time_format: HH:mm:ss
+updated_option: 'mtime'
+
+per_page: 10
+pagination_dir: page
+
+include:
+exclude:
+ignore:
+
+theme: Sakura
+
+cdn_prefix: https://cdn.jsdelivr.net/gh/8423ffsf/8423ffsf.github.io@main/source
+
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content:
+  content_limit: 140
+  content_limit_delim: ' '
+  order_by: -date
+
+jsonContent:
+  meta: false
+  pages: false
+  posts:
+    title: true
+    date: true
+    path: true
+    text: true
+    raw: false
+    content: false
+    excerpt: true
+    categories: true
+    tags: true
+  categories: true
+  tags: true
+
+sitemap:
+  path: sitemap.xml
+  rel: false
+
+deploy:
+  type: ''
